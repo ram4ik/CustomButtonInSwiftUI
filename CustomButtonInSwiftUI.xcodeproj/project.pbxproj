@@ -13,6 +13,7 @@
 		957EE72E243B318D00780088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957EE72D243B318D00780088 /* Assets.xcassets */; };
 		957EE731243B318D00780088 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957EE730243B318D00780088 /* Preview Assets.xcassets */; };
 		957EE734243B318D00780088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957EE732243B318D00780088 /* LaunchScreen.storyboard */; };
+		957EE73C243B32CF00780088 /* SpecialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957EE73B243B32CF00780088 /* SpecialButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		957EE730243B318D00780088 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		957EE733243B318D00780088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		957EE735243B318D00780088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957EE73B243B32CF00780088 /* SpecialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				957EE732243B318D00780088 /* LaunchScreen.storyboard */,
 				957EE735243B318D00780088 /* Info.plist */,
 				957EE72F243B318D00780088 /* Preview Content */,
+				957EE73B243B32CF00780088 /* SpecialButton.swift */,
 			);
 			path = CustomButtonInSwiftUI;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				957EE728243B318C00780088 /* AppDelegate.swift in Sources */,
 				957EE72A243B318C00780088 /* SceneDelegate.swift in Sources */,
 				957EE72C243B318C00780088 /* ContentView.swift in Sources */,
+				957EE73C243B32CF00780088 /* SpecialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

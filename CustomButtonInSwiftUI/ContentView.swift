@@ -9,8 +9,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var color = "White"
+    
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            Color(self.color)
+                .opacity(0.2)
+                .edgesIgnoringSafeArea(.all)
+                
+            HStack {
+                SpecialButton(buttonText: "Hello", buttonColor: Color("Blue"))
+                    .onTapGesture {
+                        self.color = "Blue"
+                }
+                
+                SpecialButton(buttonText: "SwiftUI", buttonColor: Color("Red"))
+                    .onTapGesture {
+                        self.color = "Red"
+                }
+            }
+        }
     }
 }
 
